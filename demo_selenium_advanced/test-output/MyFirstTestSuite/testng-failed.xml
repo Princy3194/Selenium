@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [MyFirstTestSuite]">
+  <test thread-count="5" name="MyFirstTest(failed)">
+    <classes>
+      <class name="Day1.DataDriven">
+        <methods>
+          <include name="testcase"/>
+        </methods>
+      </class> <!-- Day1.DataDriven -->
+    </classes>
+  </test> <!-- MyFirstTest(failed) -->
+</suite> <!-- Failed suite [MyFirstTestSuite] -->
